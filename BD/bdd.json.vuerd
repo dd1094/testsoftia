@@ -1,0 +1,434 @@
+{
+  "canvas": {
+    "version": "2.2.11",
+    "width": 2000,
+    "height": 2000,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
+    "show": {
+      "tableComment": true,
+      "columnComment": true,
+      "columnDataType": true,
+      "columnDefault": true,
+      "columnAutoIncrement": false,
+      "columnPrimaryKey": true,
+      "columnUnique": false,
+      "columnNotNull": true,
+      "relationship": true
+    },
+    "database": "MySQL",
+    "databaseName": "",
+    "canvasType": "@vuerd/builtin-sql-ddl",
+    "language": "GraphQL",
+    "tableCase": "pascalCase",
+    "columnCase": "camelCase",
+    "highlightTheme": "VS2015",
+    "bracketType": "none",
+    "setting": {
+      "relationshipDataTypeSync": true,
+      "relationshipOptimization": false,
+      "columnOrder": [
+        "columnName",
+        "columnDataType",
+        "columnNotNull",
+        "columnUnique",
+        "columnAutoIncrement",
+        "columnDefault",
+        "columnComment"
+      ]
+    },
+    "pluginSerializationMap": {}
+  },
+  "table": {
+    "tables": [
+      {
+        "name": "Etudiant",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_etud",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e283a249-ab35-4650-93be-47d889f7925f"
+          },
+          {
+            "name": "nom_etud",
+            "comment": "",
+            "dataType": "VARCHAR(300)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "93101911-473c-42c6-8843-0fae29cb04df"
+          },
+          {
+            "name": "prenon_etud",
+            "comment": "",
+            "dataType": "VARCHAR(300)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 75.0107421875,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "6512c9e8-116e-4d17-b84e-aa5e8e72a00b"
+          },
+          {
+            "name": "id_conv",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "03792f0c-e932-4f04-9c69-02504e22f751"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 45.6,
+          "top": 97.6,
+          "zIndex": 4,
+          "widthName": 60,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "d3c857df-f194-492d-a2d2-69c27d8f8436"
+      },
+      {
+        "name": "Convention",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_conv",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "316cdc4c-0275-45ed-8b8e-236292fc3dc1"
+          },
+          {
+            "name": "nom_conv",
+            "comment": "",
+            "dataType": "VARCHAR(300)",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 61.97900390625,
+              "widthComment": 60,
+              "widthDataType": 94.94873046875,
+              "widthDefault": 60
+            },
+            "id": "f26b93c7-c34a-4e6b-8e85-4c05c50bfb96"
+          },
+          {
+            "name": "nbHeur_conv",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.3271484375,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "70de9f5d-7df1-4bd5-b979-99de8e5ea0e5"
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 592,
+          "top": 209.6,
+          "zIndex": 3,
+          "widthName": 67.76806640625,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "f700cf41-0d1c-4550-93ba-9e32952d32e9"
+      },
+      {
+        "name": "Attestation",
+        "comment": "",
+        "columns": [
+          {
+            "name": "id_attes",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "680db55d-0458-46d6-a5dd-a71b861a52d4"
+          },
+          {
+            "name": "mess_attes",
+            "comment": "",
+            "dataType": "TEXT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 68.47265625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "e80fff99-b487-4aa9-b08d-f0347dac8210"
+          },
+          {
+            "name": "id_etud",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "05514c68-6328-49cc-91f9-cc2bb82341e3"
+          },
+          {
+            "name": "id_conv",
+            "comment": "",
+            "dataType": "INT",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": true,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            },
+            "id": "37e9fa38-25e6-4e94-8151-293b482e5ddb"
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 127.2,
+          "top": 461.6,
+          "zIndex": 10,
+          "widthName": 63.42626953125,
+          "widthComment": 60
+        },
+        "visible": true,
+        "id": "5678bd3f-7fe1-40de-a78c-7dc76e060992"
+      }
+    ],
+    "indexes": []
+  },
+  "memo": {
+    "memos": []
+  },
+  "relationship": {
+    "relationships": [
+      {
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "f700cf41-0d1c-4550-93ba-9e32952d32e9",
+          "columnIds": [
+            "316cdc4c-0275-45ed-8b8e-236292fc3dc1"
+          ],
+          "x": 592,
+          "y": 242.225,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "d3c857df-f194-492d-a2d2-69c27d8f8436",
+          "columnIds": [
+            "03792f0c-e932-4f04-9c69-02504e22f751"
+          ],
+          "x": 442.55947265625,
+          "y": 173.1,
+          "direction": "right"
+        },
+        "constraintName": "fk_convention_to_etudiant",
+        "visible": true,
+        "id": "c45b56e2-64e4-4200-8ef7-7f0e9cb41dba"
+      },
+      {
+        "identification": true,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "d3c857df-f194-492d-a2d2-69c27d8f8436",
+          "columnIds": [
+            "e283a249-ab35-4650-93be-47d889f7925f"
+          ],
+          "x": 244.079736328125,
+          "y": 248.6,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "5678bd3f-7fe1-40de-a78c-7dc76e060992",
+          "columnIds": [
+            "05514c68-6328-49cc-91f9-cc2bb82341e3"
+          ],
+          "x": 304.936328125,
+          "y": 461.6,
+          "direction": "top"
+        },
+        "constraintName": "fk_etudiant_to_attestation",
+        "visible": true,
+        "id": "47a4e3a4-1d3e-46b7-bda5-42f3866c0c76"
+      },
+      {
+        "identification": true,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "f700cf41-0d1c-4550-93ba-9e32952d32e9",
+          "columnIds": [
+            "316cdc4c-0275-45ed-8b8e-236292fc3dc1"
+          ],
+          "x": 592,
+          "y": 307.475,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "5678bd3f-7fe1-40de-a78c-7dc76e060992",
+          "columnIds": [
+            "37e9fa38-25e6-4e94-8151-293b482e5ddb"
+          ],
+          "x": 482.67265625,
+          "y": 537.1,
+          "direction": "right"
+        },
+        "constraintName": "fk_convention_to_attestation",
+        "visible": true,
+        "id": "251ca39c-bbe7-40e6-9a22-e92e5566b714"
+      }
+    ]
+  }
+}
